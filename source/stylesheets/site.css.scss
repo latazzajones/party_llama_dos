@@ -1,0 +1,13 @@
+@import "navigation";
+@import "content";
+
+html body {
+  font: 100% Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: grey;
+  text-decoration: none; 
+}
