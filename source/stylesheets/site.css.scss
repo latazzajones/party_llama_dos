@@ -1,9 +1,10 @@
 @import "navigation";
-@import "content";
+@import "index";
 
 html body {
-  font: 100% Helvetica, sans-serif;
-  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;;
+  background-color: #9CDE74;
+  margin: 1;
   padding: 0;
 }
 
@@ -11,3 +12,4 @@ a {
   color: grey;
   text-decoration: none; 
 }
+

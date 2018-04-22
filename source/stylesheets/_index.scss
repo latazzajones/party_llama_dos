@@ -1,12 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:500');
-
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100i,300i,400,700');
 
 .content {
   .box {
-    padding: 1em;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-size: 2em;
+    background-image: url("../images/gold.jpg");    
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    color: #7b0b5a;
+    padding: .5em;
+    font-size: 38px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
     display: flex; 
     align-items: center;
     justify-content: center;
@@ -18,26 +22,21 @@
     grid-gap: 1em;
   }
   #box1 {
-    background-color: red;    
+    font-size: 48px;
+    background-size: 100% 100%;
     grid-row: 1/4;
   }
   #box2 {
-    background-color: green;
   }
   #box3 {
-    background-color: blue;
   }
   #box4 {
-    background-color: purple;
   }
   #box5 {
-    background-color: pink;
   }
   #box6 {
-    background-color: red;
   }
   #box7 {
-    background-color: green;
   }
 }
 

@@ -1,6 +1,7 @@
 .navigation {
   ul {
     display: none;
+    font-weight: 100;
   }
   h1.logo {
     margin: .5em;
@@ -13,6 +14,7 @@
 
 @media all and (min-width: 775px) {
  .navigation {
+   margin-top: 1em;
    display: inline-block;
    width: 100%;
     nav {
