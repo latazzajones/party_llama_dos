@@ -2,13 +2,8 @@
 
 .content {
   .box {
-    //background-image: url("../images/gold.jpg");    
-    //background-color: #031b5b;
-    background-repeat: no-repeat;
-    background-size: 100% auto;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     color: white;
-    //color: #7b0b5a;
     padding: .5em;
     font-size: 38px;
     font-family: 'Josefin Sans', sans-serif;
@@ -30,7 +25,7 @@
     grid-gap: 1em;
   }
   #box1 {
-    background-color: white;
+    background-color: rgba(253, 238, 238, 0.9);
     color: #7b0b5a;
     font-size: 48px;
     background-size: 100% 100%;
@@ -70,7 +65,7 @@
         position: relative;
         right: 57%;
         top: 24%;
-        img {
+        embed {
           width: 175px;
         }
       }
@@ -79,8 +74,8 @@
         position: relative;
         left: 56%;
         bottom: 25%;
-        img {
-          width: 175px;
+        embed {
+          width: 230px;
         }
       }
     }
