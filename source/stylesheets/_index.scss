@@ -2,11 +2,13 @@
 
 .content {
   .box {
-    background-image: url("../images/gold.jpg");    
+    //background-image: url("../images/gold.jpg");    
+    //background-color: #031b5b;
     background-repeat: no-repeat;
     background-size: 100% auto;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    color: #7b0b5a;
+    color: white;
+    //color: #7b0b5a;
     padding: .5em;
     font-size: 38px;
     font-family: 'Josefin Sans', sans-serif;
@@ -14,6 +16,12 @@
     display: flex; 
     align-items: center;
     justify-content: center;
+    .hummingbird {
+      display: none;
+    }
+    .crane {
+      display: none;
+    }
   }
   #grid-wrapper {
     display: grid;
@@ -22,21 +30,29 @@
     grid-gap: 1em;
   }
   #box1 {
+    background-color: white;
+    color: #7b0b5a;
     font-size: 48px;
     background-size: 100% 100%;
     grid-row: 1/4;
   }
   #box2 {
+    background-color: #7b0b5a;
   }
   #box3 {
+    background-color: #e09bb1;
   }
   #box4 {
+    background-color: #6b8aa2;
   }
   #box5 {
+    background-color: #031b5b;
   }
   #box6 {
+    background-color: #e09bb1;
   }
   #box7 {
+    background-color: #6b8aa2;
   }
 }
 
@@ -49,6 +65,24 @@
     #box1 {
       grid-column: 1/7;
       grid-row: 1/5;
+      .crane {
+        display: block;
+        position: relative;
+        right: 57%;
+        top: 24%;
+        img {
+          width: 175px;
+        }
+      }
+      .hummingbird {
+        display: block;
+        position: relative;
+        left: 56%;
+        bottom: 25%;
+        img {
+          width: 175px;
+        }
+      }
     }
     #box2 {
     }
