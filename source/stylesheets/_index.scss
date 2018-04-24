@@ -67,7 +67,7 @@
       .crane {
         display: block;
         position: relative;
-        right: 57%;
+        right: 60%;
         top: 24%;
         embed {
           width: 175px;
@@ -88,6 +88,9 @@
 
 @media all and (min-width: 960px) {
   .content {
+    #grid-wrapper {
+      grid-gap: 1.25em;
+    }
     .box {
       font-size: 1.75em;
     }
