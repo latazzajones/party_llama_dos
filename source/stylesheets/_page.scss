@@ -1,14 +1,22 @@
+p {
+	margin: .25em;
+}
 #caleb_image {
   position: absolute;
   width: 100%;
   height: auto;
 }
 .page_content {
+	padding: 1em;
   position: absolute;
   left: 15%;
-  width: 70%;
+  width: 65%;
   background:#7f7f7f;
   background:rgba(253,238,238,0.9);
   color: #7b0b5a;
   text-align: center;
 }
+.blue {
+	color: #1F2558;
+}
+
