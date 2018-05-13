@@ -1,9 +1,21 @@
 p {
 	margin: .25em;
 }
+
+iframe {
+  display:none;
+}
+
+.box-div {
+  border: solid;
+  margin-bottom: 1em;
+  border-width: 1px;
+}
+
 #caleb_image {
   position: absolute;
-  width: 100%;
+  left: -46px;
+  width: 115%;
   height: auto;
 }
 .page_content {
@@ -11,8 +23,9 @@ p {
   position: absolute;
   left: 15%;
   width: 65%;
-  background:#7f7f7f;
-  background:rgba(253,238,238,0.9);
+  background: white;
+  #background: #7f7f7f;
+  #background: rgba(253,238,238,0.9);
   color: #7b0b5a;
   text-align: center;
 }
@@ -20,3 +33,11 @@ p {
 	color: #1F2558;
 }
 
+@media all and (min-width: 775px) {
+  iframe {
+    display: inline-block;
+  }
+  #caleb_image {
+    left: -120px;
+  }
+}

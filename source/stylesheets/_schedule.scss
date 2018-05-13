@@ -1,0 +1,41 @@
+dt {
+  float: left;
+  clear: left;
+}
+
+dd {
+  margin: 0 0 0 4em;
+  padding: 0 0 0.5em 0;
+}
+
+#schedule-div {
+  text-align: left;
+  font-style: italic;
+  color: #031b5b;
+}
+.time-box {
+  padding: .5em;
+}
+.time {
+  font-style: normal;
+  font-weight: bolder;
+}
+#bus-note {
+  color: #7b0b5a;
+  padding: .5em .25em 0em 0em;
+  text-align: center;
+  font-weight: bolder;
+}
+#siesta {
+  color: #7b0b5a;
+  text-align: center;
+  font-weight: bolder;
+}
+
+@media all and (min-width: 775px) {
+  #schedule-div {
+    margin-left: 30%;
+    width: 40%;
+  }
+}
+

@@ -1,12 +1,14 @@
 @import "page";
 @import "navigation";
 @import "index";
+@import "schedule";
 
 html body {
   font-family: 'Josefin Sans', sans-serif;;
   background-color: #c9df6b;
   margin: 1em;
   padding: 0;
+  overflow-x: hidden;
 }
 
 a {
