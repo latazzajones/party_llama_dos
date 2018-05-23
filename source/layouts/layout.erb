@@ -13,28 +13,30 @@
   <body>
     <div class="navigation">
       <nav>
-        <a href="/"><img id="logo-image" src="../images/alitashalogo.png"></a>
+        <% link_to "#{config[:site_url]}/" do %>
+          <%= image_tag 'alitashalogo.png', id: "logo-image"%></a>
+        <% end %>
         <ul class="list-group">
           <li class="list-group-item">
-            <a href="/hotel.html">Hotel</a>
+            <%= link_to 'Hotel', "#{config[:site_url]}/hotel" %>
           </li>
           <li>
-            <a href="/parking.html">Parking</a>
+            <%= link_to 'Parking', "#{config[:site_url]}/" %>
           </li>
           <li>
-            <a href="/schedule.html">Schedule</a>
+            <%= link_to 'Schedule', "#{config[:site_url]}/schedule" %>
           </li>
           <li>
-            <a href="/attire.html">Attire</a>
+            <%= link_to 'Artists', "#{config[:site_url]}/artists" %>
           </li>
           <li>
-            <a href="/">RSVP</a>
+            <%= link_to 'RSVP', "#{config[:site_url]}/" %>
           </li>
           <li>
-            <a href="/">Registry</a>
+            <%= link_to 'Registry', "https://www.zola.com/registry/natashaandali" %>
           </li>
           <li>
-            <a href="/photos.html">Photos</a>
+            <%= link_to 'Photos', "#{config[:site_url]}/" %>
           </li>
         </ul>
       </nav>
