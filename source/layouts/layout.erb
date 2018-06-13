@@ -17,26 +17,26 @@
           <%= image_tag 'alitashalogo.png', id: "logo-image"%></a>
         <% end %>
         <ul class="list-group">
+          <li>
+            <%= link_to 'RSVP', "#{config[:site_url]}/" %>
+          </li>
           <li class="list-group-item">
             <%= link_to 'Hotel', "#{config[:site_url]}/hotel" %>
-          </li>
-          <li>
-            <%= link_to 'Parking', "#{config[:site_url]}/parking" %>
           </li>
           <li>
             <%= link_to 'Schedule', "#{config[:site_url]}/schedule" %>
           </li>
           <li>
+            <%= link_to 'Parking', "#{config[:site_url]}/parking" %>
+          </li>
+          <li>
+            <%= link_to 'F.A.Q', "#{config[:site_url]}/faq" %>
+          </li>
+          <li>
             <%= link_to 'Artists', "#{config[:site_url]}/artists" %>
           </li>
           <li>
-            <%= link_to 'RSVP', "#{config[:site_url]}/" %>
-          </li>
-          <li>
             <%= link_to 'Registry', "https://www.zola.com/registry/natashaandali" %>
-          </li>
-          <li>
-            <%= link_to 'Photos', "#{config[:site_url]}/" %>
           </li>
         </ul>
       </nav>
