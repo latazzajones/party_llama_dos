@@ -4,6 +4,7 @@
 @import "schedule";
 @import "hotel";
 @import "faq";
+@import "artist";
 
 html body {
   font-family: 'Josefin Sans', sans-serif;;
@@ -23,5 +24,9 @@ a {
     margin-left: 2em;
     margin-right: 2em;
   }
+
+.left_align {
+  text-align: left;
+}
 }
 
