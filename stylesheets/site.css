@@ -175,6 +175,10 @@ dd {
 ul {
   list-style: none; }
 
+.left-align {
+  text-align: left;
+  margin-left: 1em; }
+
 html body {
   font-family: 'Josefin Sans', sans-serif;
   background-color: #c9df6b;
