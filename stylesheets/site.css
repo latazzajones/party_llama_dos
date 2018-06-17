@@ -179,6 +179,12 @@ ul {
   text-align: left;
   margin-left: 1em; }
 
+.artist_name {
+  margin-bottom: 0em; }
+
+.artist_site {
+  margin-bottom: 1em; }
+
 html body {
   font-family: 'Josefin Sans', sans-serif;
   background-color: #c9df6b;
@@ -193,4 +199,7 @@ a {
 @media all and (min-width: 775px) {
   html body {
     margin-left: 2em;
-    margin-right: 2em; } }
+    margin-right: 2em; }
+
+  .left_align {
+    text-align: left; } }
