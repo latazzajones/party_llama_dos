@@ -63,6 +63,8 @@ iframe {
       padding: .5em; }
     .navigation h1.logo {
       float: left; } }
+.content #front_caleb_image {
+  display: none; }
 .content .box {
   -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -88,7 +90,8 @@ iframe {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(7, 1fr);
-  grid-gap: 1em; }
+  grid-gap: 1em;
+  padding-bottom: 1em; }
 .content #box1 {
   background-color: rgba(253, 238, 238, 0.9);
   color: #7b0b5a;
@@ -109,6 +112,12 @@ iframe {
   background-color: #6b8aa2; }
 
 @media all and (min-width: 775px) {
+  .content #front_caleb_image {
+    display: block;
+    position: absolute;
+    left: -46px;
+    width: 115%;
+    height: auto; }
   .content #grid-wrapper {
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(5, 1fr);
