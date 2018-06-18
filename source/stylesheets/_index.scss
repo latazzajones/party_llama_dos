@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100i,300i,400,700');
 
 .content {
+  #front_caleb_image {
+    display: none;
+  }
   .box {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     color: white;
@@ -23,6 +26,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: repeat(7, 1fr);
     grid-gap: 1em;
+    padding-bottom: 1em;
   }
   #box1 {
     background-color: rgba(253, 238, 238, 0.9);
@@ -53,6 +57,13 @@
 
 @media all and (min-width: 775px) {
   .content {
+    #front_caleb_image {
+      display: block;
+      position: absolute;
+      left: -46px;
+      width: 115%;
+      height: auto;
+    }
     #grid-wrapper {
       grid-template-columns: repeat(6, 1fr);
       grid-template-rows: repeat(5, 1fr);
