@@ -194,6 +194,10 @@ ul {
 .artist_site {
   margin-bottom: 1em; }
 
+.light {
+  font-weight: 100;
+  color: grey; }
+
 html body {
   font-family: 'Josefin Sans', sans-serif;
   background-color: #c9df6b;
