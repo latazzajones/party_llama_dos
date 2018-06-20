@@ -3,15 +3,6 @@
 page "CNAME", layout: false
 activate :directory_indexes
 
-configure :development do
-  set :site_url, ""
-end
-
-configure :build do
-  set :site_url, "/party_llama_dos"
-  set :http_prefix, "/party_llama_dos"
-end
-
 activate :deploy do |deploy|
   deploy.deploy_method = :git
   deploy.branch = 'master'
