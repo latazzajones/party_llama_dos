@@ -13,6 +13,7 @@ iframe {
 }
 
 #caleb_image {
+  display: none;
   position: absolute;
   left: -46px;
   width: 115%;
@@ -20,12 +21,7 @@ iframe {
 }
 .page_content {
 	padding: 1em;
-  position: absolute;
-  left: 15%;
-  width: 65%;
   background: white;
-  #background: #7f7f7f;
-  #background: rgba(253,238,238,0.9);
   color: #7b0b5a;
   text-align: center;
 }
@@ -38,7 +34,13 @@ iframe {
   iframe {
     display: inline-block;
   }
+  .page_content {
+    position: absolute;
+    left: 15%;
+    width: 65%;
+  }
   #caleb_image {
+    display: block;
     left: -120px;
   }
 }
