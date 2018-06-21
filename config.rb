@@ -9,6 +9,11 @@ activate :deploy do |deploy|
   deploy.build_before = true
 end
 
+configure :build do
+  set :build_dir, 'docs'
+end
+
+
 activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
