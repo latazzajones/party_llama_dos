@@ -3,16 +3,9 @@
 page "CNAME", layout: false
 activate :directory_indexes
 
-activate :deploy do |deploy|
-  deploy.deploy_method = :git
-  deploy.branch = 'master'
-  deploy.build_before = true
-end
-
 configure :build do
   set :build_dir, 'docs'
 end
-
 
 activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
