@@ -67,6 +67,8 @@ iframe {
       float: left; } }
 .content #front_caleb_image {
   display: none; }
+.content a.box {
+  text-decoration: none; }
 .content .box {
   -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -186,6 +188,9 @@ dd {
 ul {
   list-style: none; }
 
+.faq_list {
+  line-height: 1.25em; }
+
 .left-align {
   text-align: left;
   margin-left: 1em; }
@@ -211,8 +216,8 @@ p {
   line-height: 1.25em; }
 
 a {
-  color: grey;
-  text-decoration: none; }
+  color: #1F2558;
+  text-decoration: underline; }
 
 @media all and (min-width: 775px) {
   html body {
