@@ -19,6 +19,10 @@ iframe {
   width: 115%;
   height: auto;
 }
+
+.rate {
+  margin-bottom: 1em;
+}
 .page_content {
 	padding: 1em;
   background: white;
@@ -29,10 +33,11 @@ iframe {
 	color: #1F2558;
 }
 
-
 @media all and (min-width: 775px) {
   iframe {
     display: inline-block;
+    margin-top: 3em;
+    width: 99%;
   }
   .page_content {
     position: absolute;
@@ -42,5 +47,12 @@ iframe {
   #caleb_image {
     display: block;
     left: -120px;
+  }
+}
+
+@media all and (min-width: 1300px) {
+  .page_content {
+    left: 26%;
+    width: 42%  
   }
 }
