@@ -8,3 +8,8 @@ This site is built with [Middleman](https://middlemanapp.com/)
 1. `gem install middleman`
 1. `bundle install`
 1. `middleman server`
+
+## Deployment
+1. run `middleman build`
+1. Commit the changed files
+1. push to master!
