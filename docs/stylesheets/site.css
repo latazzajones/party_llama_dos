@@ -17,6 +17,9 @@ iframe {
   width: 115%;
   height: auto; }
 
+.rate {
+  margin-bottom: 1em; }
+
 .page_content {
   padding: 1em;
   background: white;
@@ -28,7 +31,9 @@ iframe {
 
 @media all and (min-width: 775px) {
   iframe {
-    display: inline-block; }
+    display: inline-block;
+    margin-top: 3em;
+    width: 99%; }
 
   .page_content {
     position: absolute;
@@ -38,6 +43,10 @@ iframe {
   #caleb_image {
     display: block;
     left: -120px; } }
+@media all and (min-width: 1300px) {
+  .page_content {
+    left: 26%;
+    width: 42%; } }
 .navigation ul {
   margin-top: 2em;
   display: none;
@@ -148,6 +157,10 @@ iframe {
 @media all and (min-width: 960px) {
   .content #grid-wrapper {
     grid-gap: 1.25em; }
+  .content #box1 .crane {
+    right: 57%; }
+  .content #box1 .hummingbird {
+    left: 54%; }
   .content .box {
     font-size: 1.75em; } }
 dt {
