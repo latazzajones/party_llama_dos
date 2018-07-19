@@ -9,6 +9,12 @@
     <title><%= current_page.data.title || "Ali + Tasha" %></title>
     <%= stylesheet_link_tag "site" %>
     <%= javascript_include_tag "site" %>
+
+    <meta property="og:title" content="<%= current_page.data.title %>">
+    <meta property="og:description" content="<%= current_page.data.description %>">
+    <meta property="og:image" content="<%= current_page.data.image %>">
+    <meta property="og:url" content="<%= current_page.data.url %>" >
+
   </head>
   <body>
     <div class="navigation">
