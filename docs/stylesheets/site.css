@@ -163,6 +163,9 @@ iframe {
     left: 54%; }
   .content .box {
     font-size: 1.75em; } }
+.center {
+  text-align: center; }
+
 dt {
   float: left;
   clear: left; }
